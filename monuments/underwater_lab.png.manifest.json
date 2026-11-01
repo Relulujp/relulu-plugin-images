@@ -1,0 +1,18 @@
+{
+ "engine": "comfyui-local",
+ "model": "qwen_image_2.1_int8_convrot.safetensors",
+ "mode": "qwen21-reference",
+ "prompt": "Create a new painting based on <image1>: move the camera closer so the row of rounded underwater lab modules on stilts above the sea floor, with lit portholes and kelp around them fills the frame as the clear focal point. Keep the recognizable shapes, materials and colors of that structure so players know the place at a glance, but change the lighting to deep blue water with soft light rays from above, rework the small details (debris, vegetation, clouds, weathering) and the angle slightly, so it is a fresh illustration rather than a copy. Painterly digital concept art for a game menu card, no people, no text, no logos, no UI, no frame rate counter.",
+ "seed": 6114,
+ "steps": 25,
+ "cfg": 1.0,
+ "reference": "refcrop/underwater_lab.png",
+ "reference_sha256": "f0ffa6c26dc9a4471100e40e24fec4ca3b7c6139e5b66cf6f382f0bad334591d",
+ "reference_source": "Image URL supplied by the user (2026-11-02): https://www.gamespark.jp/imgs/zoom/509508.jpg",
+ "rule_exception": "本人 2026-11-02 が参照画像の URL を渡して作成を依頼（「作って欲しい。追加で頼む。」）。方法は wiki の例外と同じ：「多少改変するなり、アップで象徴的な部分にスケールアップして作らせれば完璧な模倣にはならない。」",
+ "output": {
+  "path": "monuments/underwater_lab.png",
+  "sha256": "e729588ca72fe387470597732b9ba872e6141ad821230e9db6a6ad92910d36dd"
+ },
+ "elapsed_ms": 1021577
+}

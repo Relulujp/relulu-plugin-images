@@ -1,0 +1,18 @@
+{
+ "engine": "comfyui-local",
+ "model": "qwen_image_2.1_int8_convrot.safetensors",
+ "mode": "qwen21-reference",
+ "prompt": "Create a new painting based on <image1>: move the camera closer so the small walled town with brick and concrete buildings, rusty corrugated roofs and the road through the gate, seen from above fills the frame as the clear focal point. Keep the recognizable shapes, materials and colors of that structure so players know the place at a glance, but change the lighting to soft late afternoon, rework the small details (debris, vegetation, clouds, weathering) and the angle slightly, so it is a fresh illustration rather than a copy. Painterly digital concept art for a game menu card, no people, no text, no logos, no UI, no frame rate counter.",
+ "seed": 6115,
+ "steps": 25,
+ "cfg": 1.0,
+ "reference": "refcrop/radtown.png",
+ "reference_sha256": "c221f507e584088df26fa529ada30ada8b867694e941a73c9e7d65b91a063c84",
+ "reference_source": "Image URL supplied by the user (2026-11-02): https://pbs.twimg.com/amplify_video_thumb/1970460147085647872/img/R6Piz23_3CA3nq5Y.jpg (HUD cropped out)",
+ "rule_exception": "本人 2026-11-02 が参照画像の URL を渡して作成を依頼（「作って欲しい。追加で頼む。」）。方法は wiki の例外と同じ：「多少改変するなり、アップで象徴的な部分にスケールアップして作らせれば完璧な模倣にはならない。」",
+ "output": {
+  "path": "monuments/radtown.png",
+  "sha256": "381727bb0631d5fe3344a1d0d0d339d590be51230a53ae1cea765a9f45df4956"
+ },
+ "elapsed_ms": 381847
+}

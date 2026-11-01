@@ -1,0 +1,18 @@
+{
+ "engine": "comfyui-local",
+ "model": "qwen_image_2.1_int8_convrot.safetensors",
+ "mode": "qwen21-reference",
+ "prompt": "Create a new painting based on <image1>: move the camera closer so the two-storey concrete ferry terminal building with its overhanging upper floor, broken windows and the rusty canopy over the parking lot fills the frame as the clear focal point. Keep the recognizable shapes, materials and colors of that structure so players know the place at a glance, but change the lighting to warm late afternoon, rework the small details (debris, vegetation, clouds, weathering) and the angle slightly, so it is a fresh illustration rather than a copy. Painterly digital concept art for a game menu card, no people, no text, no logos, no UI, no frame rate counter.",
+ "seed": 6112,
+ "steps": 25,
+ "cfg": 1.0,
+ "reference": "refcrop/ferry_terminal.png",
+ "reference_sha256": "e4cc0db7f6f3cb36b05d1f26fd46a6dc5b533541da59df6ae96f24f076a314a4",
+ "reference_source": "Image URL supplied by the user (2026-11-02): https://cdn-ak.f.st-hatena.com/images/fotolife/g/game-lab/20230723/20230723014657.jpg",
+ "rule_exception": "本人 2026-11-02 が参照画像の URL を渡して作成を依頼（「作って欲しい。追加で頼む。」）。方法は wiki の例外と同じ：「多少改変するなり、アップで象徴的な部分にスケールアップして作らせれば完璧な模倣にはならない。」",
+ "output": {
+  "path": "monuments/ferry_terminal.png",
+  "sha256": "06fcfde4d786cbda2a3cd389279e55ea06e97360c2e7d3eb50109e353c2bcd09"
+ },
+ "elapsed_ms": 93042
+}

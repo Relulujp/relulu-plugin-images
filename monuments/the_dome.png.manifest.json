@@ -1,0 +1,18 @@
+{
+ "engine": "comfyui-local",
+ "model": "qwen_image_2.1_int8_convrot.safetensors",
+ "mode": "qwen21-reference",
+ "prompt": "Create a new painting based on <image1>: move the camera closer so the huge rusted spherical tank on its steel legs among palm trees in the desert fills the frame as the clear focal point. Keep the recognizable shapes, materials and colors of that structure so players know the place at a glance, but change the lighting to hot hazy golden hour, rework the small details (debris, vegetation, clouds, weathering) and the angle slightly, so it is a fresh illustration rather than a copy. Painterly digital concept art for a game menu card, no people, no text, no logos, no UI, no frame rate counter.",
+ "seed": 6116,
+ "steps": 25,
+ "cfg": 1.0,
+ "reference": "refcrop/the_dome.png",
+ "reference_sha256": "f49a9e93f13fc5354ca7d684372a1d89aa23b889afcbb02b7b4129a6e8865994",
+ "reference_source": "Image URL supplied by the user (2026-11-02): https://cdn.wikiwiki.jp/to/w/rust_jp/ (【Rust】ドーム, rust 23.12.05 ドーム.jpg)",
+ "rule_exception": "本人 2026-11-02 が参照画像の URL を渡して作成を依頼（「作って欲しい。追加で頼む。」）。方法は wiki の例外と同じ：「多少改変するなり、アップで象徴的な部分にスケールアップして作らせれば完璧な模倣にはならない。」",
+ "output": {
+  "path": "monuments/the_dome.png",
+  "sha256": "a88a0b091467aac86b5007abfeb43dd5298f4e23a93c5cd6ebd725c888e94055"
+ },
+ "elapsed_ms": 589692
+}

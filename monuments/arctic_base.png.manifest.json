@@ -1,0 +1,18 @@
+{
+ "engine": "comfyui-local",
+ "model": "qwen_image_2.1_int8_convrot.safetensors",
+ "mode": "qwen21-reference",
+ "prompt": "Create a new painting based on <image1>: move the camera closer so the snowy research base with red-roofed huts, a domed radar building and tall wind turbines fills the frame as the clear focal point. Keep the recognizable shapes, materials and colors of that structure so players know the place at a glance, but change the lighting to pale blue winter dusk with light snowfall, rework the small details (debris, vegetation, clouds, weathering) and the angle slightly, so it is a fresh illustration rather than a copy. Painterly digital concept art for a game menu card, no people, no text, no logos, no UI, no frame rate counter.",
+ "seed": 6113,
+ "steps": 25,
+ "cfg": 1.0,
+ "reference": "refcrop/arctic_base.png",
+ "reference_sha256": "e3434766f8f3f9a7b673fb6c4c1dc9c9f805131b1188bff4a4e0757511e2b7ed",
+ "reference_source": "Image URL supplied by the user (2026-11-02): https://cdn.wikiwiki.jp/to/w/rust_jp/ (【Rust】アークティックベース, rust 24.02.13 アークティックベース2.jpg)",
+ "rule_exception": "本人 2026-11-02 が参照画像の URL を渡して作成を依頼（「作って欲しい。追加で頼む。」）。方法は wiki の例外と同じ：「多少改変するなり、アップで象徴的な部分にスケールアップして作らせれば完璧な模倣にはならない。」",
+ "output": {
+  "path": "monuments/arctic_base.png",
+  "sha256": "4dc05759ed53bfad8975065e2ccbe9d96b008f6dd290619b0ae10736b0cbc43e"
+ },
+ "elapsed_ms": 715060
+}
