@@ -1,0 +1,18 @@
+{
+ "engine": "comfyui-local",
+ "model": "qwen_image_2.1_int8_convrot.safetensors",
+ "mode": "qwen21-reference",
+ "prompt": "Create a new painting based on <image1>: move the camera closer so the large rusted satellite dish on its frame among the rocks fills the frame as the clear focal point. Keep the recognizable shapes, materials and colors of that structure so players know the place at a glance, but change the lighting to soft overcast noon, rework the small details (debris, vegetation, clouds, weathering) and the angle slightly, so it is a fresh illustration rather than a copy. Painterly digital concept art for a game menu card, no people, no text, no logos, no UI, no frame rate counter.",
+ "seed": 6106,
+ "steps": 25,
+ "cfg": 1.0,
+ "reference": "refcrop/satellite_dish.png",
+ "reference_sha256": "0a9dae216c988b0cf864eaa8676bc99d166d59d1f68982c30f5107f147d9d4d6",
+ "reference_source": "Rust Wiki (rust.fandom.com) in-game screenshot, see wiki/sources.json",
+ "rule_exception": "本人 2026-11-02「実物をwikiから拾ってきて、作成しろ。ここは例外だ。」「多少改変するなり、アップで象徴的な部分にスケールアップして作らせれば完璧な模倣にはならない。」",
+ "output": {
+  "path": "monuments/satellite_dish.png",
+  "sha256": "c0b34d91a2efd94718b8a8f2c859bf72fa2e7d8e9958ce8ba4f0cf5e57a7ac73"
+ },
+ "elapsed_ms": 142643
+}

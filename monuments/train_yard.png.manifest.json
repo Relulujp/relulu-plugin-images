@@ -1,0 +1,18 @@
+{
+ "engine": "comfyui-local",
+ "model": "qwen_image_2.1_int8_convrot.safetensors",
+ "mode": "qwen21-reference",
+ "prompt": "Create a new painting based on <image1>: move the camera closer so the rusted water tower and the rail lines with freight cars fills the frame as the clear focal point. Keep the recognizable shapes, materials and colors of that structure so players know the place at a glance, but change the lighting to warm early evening, rework the small details (debris, vegetation, clouds, weathering) and the angle slightly, so it is a fresh illustration rather than a copy. Painterly digital concept art for a game menu card, no people, no text, no logos, no UI, no frame rate counter.",
+ "seed": 6103,
+ "steps": 25,
+ "cfg": 1.0,
+ "reference": "refcrop/train_yard.png",
+ "reference_sha256": "c1098743b41ea3172ffd9b59676f9b1a378c8248112b59f1bb328c53a3a67e73",
+ "reference_source": "Rust Wiki (rust.fandom.com) in-game screenshot, see wiki/sources.json",
+ "rule_exception": "本人 2026-11-02「実物をwikiから拾ってきて、作成しろ。ここは例外だ。」「多少改変するなり、アップで象徴的な部分にスケールアップして作らせれば完璧な模倣にはならない。」",
+ "output": {
+  "path": "monuments/train_yard.png",
+  "sha256": "9bbb430048bbba24cf23c51753d7e2309858953804409802005108bfbd0e60c6"
+ },
+ "elapsed_ms": 222736
+}

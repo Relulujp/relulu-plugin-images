@@ -1,0 +1,18 @@
+{
+ "engine": "comfyui-local",
+ "model": "qwen_image_2.1_int8_convrot.safetensors",
+ "mode": "qwen21-reference",
+ "prompt": "Create a new painting based on <image1>: move the camera closer so the concrete tunnel portal cut into the rocky canyon, with rails leading inside fills the frame as the clear focal point. Keep the recognizable shapes, materials and colors of that structure so players know the place at a glance, but change the lighting to overcast late morning, rework the small details (debris, vegetation, clouds, weathering) and the angle slightly, so it is a fresh illustration rather than a copy. Painterly digital concept art for a game menu card, no people, no text, no logos, no UI, no frame rate counter.",
+ "seed": 6101,
+ "steps": 25,
+ "cfg": 1.0,
+ "reference": "refcrop/military_tunnels.png",
+ "reference_sha256": "b89d230a98863e045c7bf60f3ac58c1d091f5a9e5b38212fd2829453f45518f5",
+ "reference_source": "Rust Wiki (rust.fandom.com) in-game screenshot, see wiki/sources.json",
+ "rule_exception": "本人 2026-11-02「実物をwikiから拾ってきて、作成しろ。ここは例外だ。」「多少改変するなり、アップで象徴的な部分にスケールアップして作らせれば完璧な模倣にはならない。」",
+ "output": {
+  "path": "monuments/military_tunnels.png",
+  "sha256": "d474dca993c3137b13e38e3c7135352c9f58d80ae15c3ebb9c6f484cf36cbf70"
+ },
+ "elapsed_ms": 330062
+}

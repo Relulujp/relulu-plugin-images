@@ -1,0 +1,18 @@
+{
+ "engine": "comfyui-local",
+ "model": "qwen_image_2.1_int8_convrot.safetensors",
+ "mode": "qwen21-reference",
+ "prompt": "Create a new painting based on <image1>: move the camera closer so the huge cylindrical missile inside the dark silo shaft, with heavy machinery around it fills the frame as the clear focal point. Keep the recognizable shapes, materials and colors of that structure so players know the place at a glance, but change the lighting to dim interior lights, rework the small details (debris, vegetation, clouds, weathering) and the angle slightly, so it is a fresh illustration rather than a copy. Painterly digital concept art for a game menu card, no people, no text, no logos, no UI, no frame rate counter.",
+ "seed": 6108,
+ "steps": 25,
+ "cfg": 1.0,
+ "reference": "refcrop/missile_silo.png",
+ "reference_sha256": "d2ef858d0afd4538aa65ed5babeeca7d941c61018cfa179ccd5fba05d7008e37",
+ "reference_source": "Rust Wiki (rust.fandom.com) in-game screenshot, see wiki/sources.json",
+ "rule_exception": "本人 2026-11-02「実物をwikiから拾ってきて、作成しろ。ここは例外だ。」「多少改変するなり、アップで象徴的な部分にスケールアップして作らせれば完璧な模倣にはならない。」",
+ "output": {
+  "path": "monuments/missile_silo.png",
+  "sha256": "b804e7621bcae887ff854b2490b7a7f8849f92a4acb1739c07d26a1c5979d4c3"
+ },
+ "elapsed_ms": 246005
+}
