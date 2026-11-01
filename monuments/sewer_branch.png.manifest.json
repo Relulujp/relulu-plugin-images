@@ -1,0 +1,18 @@
+{
+ "engine": "comfyui-local",
+ "model": "qwen_image_2.1_int8_convrot.safetensors",
+ "mode": "qwen21-reference",
+ "prompt": "Create a new painting based on <image1>: move the camera closer so the deep rocky river canyon crossed by rusted pipe bridges and wooden walkways, with grassy cliff tops fills the frame as the clear focal point. Keep the recognizable shapes, materials and colors of that structure so players know the place at a glance, but change the lighting to soft misty morning, rework the small details (debris, vegetation, clouds, weathering) and the angle slightly, so it is a fresh illustration rather than a copy. Painterly digital concept art for a game menu card, no people, no text, no logos, no UI, no frame rate counter.",
+ "seed": 6110,
+ "steps": 25,
+ "cfg": 1.0,
+ "reference": "refcrop/sewer_branch.png",
+ "reference_sha256": "2f07cf1075d3bc94fe2351c952d0033368de1293fb9411af3cfcd48b1cc4cdae",
+ "reference_source": "User-supplied in-game screenshot (2026-11-02)",
+ "rule_exception": "本人 2026-11-02「実物をwikiから拾ってきて、作成しろ。ここは例外だ。」「多少改変するなり、アップで象徴的な部分にスケールアップして作らせれば完璧な模倣にはならない。」",
+ "output": {
+  "path": "monuments/sewer_branch.png",
+  "sha256": "f3ca6c2f9e3286b3bfaf8a0b1f484d2025385d0e621a585b33cb939eff08e4b8"
+ },
+ "elapsed_ms": 121741
+}

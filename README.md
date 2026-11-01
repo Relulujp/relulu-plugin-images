@@ -5,7 +5,7 @@ Relulu_jp 製の Rust プラグインが画面に出す画像の置き場。プ�
 - `backpack/`：BackpackButton のボタン画像
 - `nexus/`：Nexus の閉じた時のアイコン
 - `skins/`：BuildingOption のスキンの見本画像
-- `monuments/`：Nexus のモニュメントの一覧の背景（Rust 既定のモニュメント。Rust Wiki のゲーム内の画像を参照して Qwen Image 2.1 で描き直した物。各画像の manifest に設定と参照の指紋）
+- `monuments/`：Nexus のモニュメントの一覧の背景（Rust 既定のモニュメント。Rust Wiki のゲーム内の画像（シャワーブランチは本人が用意した画像）を参照して Qwen Image 2.1 で描き直した物。各画像の manifest に設定と参照の指紋）
 
 画像の権利は Relulu_jp が保有する（`monuments/` に描かれた Rust のモニュメントの意匠は Facepunch Studios の物）。プラグインからの参照以外の利用・再配布・改変を認めない。
 
