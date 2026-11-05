@@ -2,6 +2,7 @@
 
 Relulu_jp 製の Rust プラグインが画面に出す画像の置き場。プラグインはリリースの添付ファイルの URL を参照する。
 
+- `hestia/`：Hestia の料理の画像（ファイル名は料理の SkinID）
 - `backpack/`：BackpackButton のボタン画像
 - `nexus/`：Nexus の閉じた時のアイコン
 - `skins/`：BuildingOption のスキンの見本画像
